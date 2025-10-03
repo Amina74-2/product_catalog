@@ -1,0 +1,20 @@
+<%- include("partials/header") %>
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<h1>Panier</h1>
+<% if (cart.length === 0) { %>
+    <main>
+  <p>Votre panier est vide.</p>
+</main>
+<% } else { %>
+  <ul>
+    <% cart.forEach((p, index) => { %>
+      <li>
+        <%= p.name %> - <%= p.price %>DA
+      </li>
+    <% }) %>
+  </ul>
+  <p>Total : <%= total %>DA</p>
+<% } %>
+<%- include("partials/footer") %>

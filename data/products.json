@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "name": "Crème Hydratante Clarins",
+    "price": 6300,
+    "category": "Soins",
+    "image": "/images/1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Sérum Anti-âge Estée Lauder",
+    "price": 11500,
+    "category": "Soins",
+    "image": "/images/2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Masque Visage Nuxe",
+    "price": 4600,
+    "category": "Soins",
+    "image": "/images/3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Crème Contour des Yeux Lancôme",
+    "price": 8000,
+    "category": "Soins",
+    "image": "/images/4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Crème Solaires Avène",
+    "price": 3500,
+    "category": "Soins",
+    "image": "/images/5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Tonique Clarins",
+    "price": 4600,
+    "category": "Soins",
+    "image": "/images/6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Parfum Chanel No.5",
+    "price": 16000,
+    "category": "Parfums",
+    "image": "/images/7.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Parfum Dior J'adore",
+    "price": 14800,
+    "category": "Parfums",
+    "image": "/images/8.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Parfum Yves Saint Laurent Black Opium",
+    "price": 13000,
+    "category": "Parfums",
+    "image": "/images/9.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Parfum Lancôme La Vie Est Belle",
+    "price": 14000,
+    "category": "Parfums",
+    "image": "/images/10.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Parfum Giorgio Armani Si",
+    "price": 15000,
+    "category": "Parfums",
+    "image": "/images/11.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Parfum Gucci Bloom",
+    "price": 16000,
+    "category": "Parfums",
+    "image": "/images/12.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Mascara Volume Dior",
+    "price": 4600,
+    "category": "Maquillage",
+    "image": "/images/13.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Fond de Teint Lancôme",
+    "price": 6300,
+    "category": "Maquillage",
+    "image": "/images/14.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Rouge à Lèvres Chanel",
+    "price": 5800,
+    "category": "Maquillage",
+    "image": "/images/15.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Poudre Compacte L'Oréal",
+    "price": 3500,
+    "category": "Maquillage",
+    "image": "/images/16.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Blush NARS",
+    "price": 7000,
+    "category": "Maquillage",
+    "image": "/images/17.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Eyeliner Maybelline",
+    "price": 2800,
+    "category": "Maquillage",
+    "image": "/images/18.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Pochette en Cuir Prada",
+    "price": 42000,
+    "category": "Accessoires",
+    "image": "/images/19.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Sac à Main Gucci",
+    "price": 63000,
+    "category": "Accessoires",
+    "image": "/images/20.jpg"
+  },
+  {
+    "id": "21",
+    "name": "Lunettes de Soleil Ray-Ban",
+    "price": 21000,
+    "category": "Accessoires",
+    "image": "/images/21.jpg"
+  },
+  {
+    "id": "22",
+    "name": "Montre Michael Kors",
+    "price": 35000,
+    "category": "Accessoires",
+    "image": "/images/22.jpg"
+  },
+  {
+    "id": "23",
+    "name": "Portefeuille Coach",
+    "price": 28000,
+    "category": "Accessoires",
+    "image": "/images/23.jpg"
+  },
+  {
+    "id": "24",
+    "name": "Écharpe en Laine Burberry",
+    "price": 17000,
+    "category": "Accessoires",
+    "image": "/images/24.jpg"
+  },
+  {
+    "id": "25",
+    "name": "Shampooing Nourrissant L'Oréal",
+    "price": 2100,
+    "category": "Soins Capillaires",
+    "image": "/images/25.jpg"
+  },
+  {
+    "id": "26",
+    "name": "Masque Hydratant Kérastase",
+    "price": 7000,
+    "category": "Soins Capillaires",
+    "image": "/images/26.jpg"
+  },
+  {
+    "id": "27",
+    "name": "Huile Capillaire Moroccanoil",
+    "price": 5600,
+    "category": "Soins Capillaires",
+    "image": "/images/27.jpg"
+  },
+  {
+    "id": "28",
+    "name": "Shampooing Volume Redken",
+    "price": 4200,
+    "category": "Soins Capillaires",
+    "image": "/images/28.jpg"
+  },
+  {
+    "id": "29",
+    "name": "Après-shampooing Pantene",
+    "price": 2500,
+    "category": "Soins Capillaires",
+    "image": "/images/29.jpg"
+  },
+  {
+    "id": "30",
+    "name": "Sérum Réparateur L'Oréal",
+    "price": 8000,
+    "category": "Soins Capillaires",
+    "image": "/images/30.jpg"
+  }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Catalog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ Bienvenue dans notre boutique</h1>
+    <nav>
+      <a href="/">Accueil</a> |
+      
+      <% if (session.user) { %>  
+        <a href="/cart">Panier</a> |  
+      <% } %>
+      
+      <% if (!session.user) { %>
+        <a href="/login">Connexion</a> |
+        <a href="/register">Inscription</a>
+      <% } else { %>
+        <span>👋 Bienvenue, <%= session.user.username %></span> |
+        <a href="/logout">Déconnexion</a>
+
+        <% if (session.user.username === "admin" && session.user.password === "123456") { %>
+          | <a href="/admin/dashboard">Admin dashboard</a>
+        <% } %>
+      <% } %>
+    </nav>
+    <hr>
+  </header>
+  
+</body>
+</html>

@@ -1,0 +1,31 @@
+<%- include("partials/header") %>
+<h1>Produits</h1>
+
+<form method="get">
+  <select name="category">
+    <option value="">Toutes catégories</option>
+    <option value="Soins">Soins</option>
+    <option value="Parfums">Parfums</option>
+    <option value="Maquillage">Maquillage</option>
+    <option value="Accessoires">Accessoires</option>
+    <option value="Soins Capillaires">Soins Capillaires</option>
+  </select>
+  <input type="number" name="min" placeholder="Min DA">
+  <input type="number" name="max" placeholder="Max DA">
+  <button>Filtrer</button>
+</form>
+
+<ul>
+  <% products.forEach(p => { %>
+    <li>
+      <img src="<%= p.image %>" width="100">
+      <p><%= p.name %> - <%= p.price %>DA</p>
+      <form method="post" action="/add-to-cart">
+        <input type="hidden" name="productId" value="<%= p.id %>">
+        <button>Ajouter au panier</button>
+      </form>
+    </li>
+  <% }) %>
+</ul>
+
+<%- include("partials/footer") %>
